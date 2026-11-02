@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
@@ -24,8 +24,12 @@ const Hero: React.FC = () => {
         >
           Hidden Identity
         </motion.h1>
-        
-        <motion.p 
+
+        <div className="mb-6">
+          <div className="w-1 h-1 bg-brand-beige rounded-full mx-auto" />
+        </div>
+
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
