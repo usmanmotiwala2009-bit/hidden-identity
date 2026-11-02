@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-brand-black text-brand-offwhite font-modern antialiased selection:bg-brand-beige selection:text-brand-black;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar for Premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-charcoal rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-brand-beige;
+}
+
+.text-editorial {
+  @apply font-editorial;
+}
