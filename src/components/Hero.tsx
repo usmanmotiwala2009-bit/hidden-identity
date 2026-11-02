@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="text-6xl md:text-9xl font-bold tracking-tighter text-brand-offwhite uppercase italic mb-4"
         >
-          Hidden Identity
+          HIDDEN IDENTITY LIVE
         </motion.h1>
 
         <div className="mb-6">
