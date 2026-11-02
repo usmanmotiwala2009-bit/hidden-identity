@@ -22,12 +22,8 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           className="text-6xl md:text-9xl font-bold tracking-tighter text-brand-offwhite uppercase italic mb-4"
         >
-          HIDDEN IDENTITY LIVE
+          Hidden Identity
         </motion.h1>
-
-        <div className="mb-6">
-          <div className="w-1 h-1 bg-brand-beige rounded-full mx-auto" />
-        </div>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
